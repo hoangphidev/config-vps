@@ -23,5 +23,3 @@ và
 Màn hình SSH như bên dưới
 
 ![Alt text](img/openssh.png?raw=true "Mở SSH")
-
-### CÀI ĐẶT MÁY CHỦ APACHE2
