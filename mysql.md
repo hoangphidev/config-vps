@@ -106,12 +106,14 @@ sudo service apache2 restart
 
 - Update cổng `sudo ufw allow mysql`
 
-###### Check cổng xem đã mở chưa [Tại đây](https://www.yougetsignal.com/tools/open-ports/)
+#### Check cổng xem đã mở chưa [Tại đây](https://www.yougetsignal.com/tools/open-ports/)
 - Nếu như dưới hình là mở rồi còn nếu là `Closed` thì chưa mở cần tạo một Rule mới
 
 ![Alt text](img/port.png?raw=true)
 
-###### Thay đổi tài khoản root để có thể kết nối
+#### Thay đổi tài khoản root để có thể kết nối
 - Sau khi đăng nhập vào phpmyadmin
 
 ![Alt text](img/root.png?raw=true)
+
+- Check vào check box `check all....` và bấm `Go`
