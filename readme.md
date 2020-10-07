@@ -16,3 +16,12 @@ và
 
 ![Alt text](img/configvm2.png?raw=true "Thiết lập thông tin và chọn create")
 
++ B4: Mở SSH
+
+![Alt text](img/ssh.png?raw=true "Mở SSH")
+
+Màn hình SSH như bên dưới
+
+![Alt text](img/openssh.png?raw=true "Mở SSH")
+
+### CÀI ĐẶT MÁY CHỦ APACHE2
