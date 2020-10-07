@@ -13,6 +13,7 @@ sudo apt-get install apache2 php mysql-server
 systemctl status mysql
 ```
 - Trạng thái mysql chạy thành công
+
 ![Alt text](img/mysql1.png?raw=true)
 
 - Khi chạy nó yêu cầu gì cứ chọn `Y` và `Enter`
@@ -43,6 +44,7 @@ show tables;
 exit;
 ```
 - Một số thao tác tạo csdl, xem csdl bằng ssh
+
 ![Alt text](img/mysql2.png?raw=true)
 
 ### CÀI ĐẶT phpMyAdmin (Đối với chưa cài mysql)
@@ -85,9 +87,12 @@ sudo service apache2 restart
 ```
 
 - Sau khi cài xong mở vào trình duyệt mở phpmyadmin bằng cách gõ `ip/phpmyadmin`
+
 ![Alt text](img/phpmyadmin5.png?raw=true)
+
 - Fix lỗi kiểu file code như trên thì chạy lệnh này ``sudo apt-get install libapache2-mod-php`` và chọn `Y` , ấn `Enter`
 - mở lại `ip/phpmyadmin` và đăng nhập với tài khoản `root`
+
 ![Alt text](img/phpmyadmin6.png?raw=true)
 
 ### HƯỚNG DẪN MỞ CỔNG MYSQL
@@ -96,7 +101,9 @@ sudo service apache2 restart
 - Tìm dòng `bind-address = 127.0.0.1` sửa thành `bind-address = 0.0.0.0` bấm `Ctr+X`, `Y`, `Enter` để lưu file
 - Khởi động lại `mysql` bằng lệnh: ``sudo systemctl restart mysql``
 - Kiểm tra cổng `sudo netstat -plunt | grep mysqld` nếu như dưới là oke
+
 ![Alt text](img/phpmyadmin7.png?raw=true)
+
 - Update cổng `sudo ufw allow mysql`
 
 ###### Check cổng xem đã mở chưa [Tại đây](https://www.yougetsignal.com/tools/open-ports/)
